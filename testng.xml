@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Open Cart UI Testing">
+    <listeners>
+        <listener class-name="com.opencart.base.MyListeners"></listener>
+    </listeners>
+<test thread-count="2" verbose="1" name="OpenCart">
+<classes>
+    <class name="testcases.LoginPageTestCases">
+
+    </class>
+</classes>
+</test>
+
+</suite>
